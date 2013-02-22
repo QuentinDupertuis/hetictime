@@ -1,19 +1,19 @@
 <?php
 class App_controller{
  
-  function __construct(){
+	function __construct(){
 
-  }
- 
-  function home(){
+	}
 
-    echo Views::instance()->render('home.html');
+	function home(){
 
-  }
- 
-  function __destruct(){
+		echo Views::instance()->render('home.html');
 
-  }
+	}
+
+	function __destruct(){
+
+	}
 
 }
 ?>

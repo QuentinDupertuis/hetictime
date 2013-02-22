@@ -1,17 +1,19 @@
 <?php
-class App_controller{
- 
-  function __construct(){
+class Dashboard_controller{
 
-  }
- 
-  function home(){
+	function __construct(){
 
-  }
- 
-  function __destruct(){
+	}
 
-  }
+	function home(){
+
+		echo Views::instance()->render('admin/dashboard.html');
+
+	}
+
+	function __destruct(){
+
+	}
 
 }
 ?>
